@@ -1,0 +1,1202 @@
+from tkinter import *
+
+def totalbutton():
+
+    try:a1=int(steam8_entry.get())
+    except:a1=0
+    try:a2=int(steam5_entry.get())
+    except:a2=0
+    try:a3=int(bottom8_entry.get())
+    except:a3=0
+    try:a4=int(bottom5_entry.get())
+    except:a4=0
+    try:a5=int(honeychilli8_entry.get())
+    except:a5=0
+    try:a6=int(honeychilli5_entry.get())
+    except:a6=0
+    try:a7=int(manchurian8_entry.get())
+    except:a7=0
+    try:a8=int(manchurian5_entry.get())
+    except:a8=0
+    try:a9=int(sichuan8_entry.get())
+    except:a9=0
+    try:a10=int(sichuan5_entry.get())
+    except:a10=0
+    try:a11=int(malai8_entry.get())
+    except:a11=0
+    try:a12=int(malai5_entry.get())
+    except:a12=0
+
+    try:b1=int(vegfriedrice_entry.get())
+    except:b1=0
+    try:b2=int(chifriedrice_entry.get())
+    except:b2=0
+    try:b3=int(vegthairice_entry.get())
+    except:b3=0
+    try:b4=int(chithairice_entry.get())
+    except:b4=0
+    try:b5=int(vegburntgarlicrice_entry.get())
+    except:b5=0
+    try:b6=int(chiburntgarlicrice_entry.get())
+    except:b6=0
+    try:b7=int(veghakkanoodles_entry.get())
+    except:b7=0
+    try:b8=int(chihakkanoodles_entry.get())
+    except:b8=0
+    try:b9=int(vegchilligarlicnoodles_entry.get())
+    except:b9=0
+    try:b10=int(chichilligarlicnoodles_entry.get())
+    except:b10=0
+    try:b11=int(vegshanghainoodles_entry.get())
+    except:b11=0
+    try:b12=int(chishanghainoodles_entry.get())
+    except:b12=0
+    try:b13=int(vegcantonesenoodles_entry.get())
+    except:b13=0
+    try:b14=int(chicantonesenoodles_entry.get())
+    except:b14=0
+    try:b15=int(vegthukpa_entry.get())
+    except:b15=0
+    try:b16=int(chithukpa_entry.get())
+    except:b16=0
+    try:b17=int(americanchopsuey_entry.get())
+    except:b17=0
+
+    try:c1=int(veghotandsour_entry.get())
+    except:c1=0
+    try:c2=int(chihotandsour_entry.get())
+    except:c2=0
+    try:c3=int(veglemoncorriander_entry.get())
+    except:c3=0
+    try:c4=int(chilemoncorriander_entry.get())
+    except:c4=0
+    try:c5=int(vegsweetcorn_entry.get())
+    except:c5=0
+    try:c6=int(chisweetcorn_entry.get())
+    except:c6=0
+    try:c7=int(vegmanchow_entry.get())
+    except:c7=0
+    try:c8=int(chimanchow_entry.get())
+    except:c8=0
+
+    try:d1=int(honeychillichicken_entry.get())
+    except:d1=0
+    try:d2=int(honeychillipotato_entry.get())
+    except:d2=0
+    try:d3=int(chickendryfry_entry.get())
+    except:d3=0
+    try:d4=int(peppergarlicdry_entry.get())
+    except:d4=0
+    try:d5=int(chillipaneer_entry.get())
+    except:d5=0
+    try:d6=int(onionrings_entry.get())
+    except:d6=0
+    try:d7=int(chocolateshake_entry.get())
+    except:d7=0
+    try:d8=int(oreoshake_entry.get())
+    except:d8=0
+    try:d9=int(coldcoffee_entry.get())
+    except:d9=0
+    try:d10=int(limesoda_entry.get())
+    except:d10=0
+    try:d11=int(hotcoffee_entry.get())
+    except:d11=0
+    try:d12=int(coke_entry.get())
+    except:d12=0
+    try:d13=int(waterbottle_entry.get())
+    except:d13=0
+
+    try:e1=int(paneervegroll_entry.get())
+    except:e1=0
+    try:e2=int(doubleeggroll_entry.get())
+    except:e2=0
+    try:e3=int(chickenroll_entry.get())
+    except:e3=0
+    try:e4=int(chickeneggroll_entry.get())
+    except:e4=0
+    try:e5=int(tandoorichickenroll_entry.get())
+    except:e5=0
+    try:e6=int(chickeneggroll_entry.get())
+    except:e6=0
+
+    try:f1=int(drumsofheaven_entry.get())
+    except:f1=0
+    try:f2=int(bbqwings_entry.get())
+    except:f2=0
+    try:f3=int(devilswings_entry.get())
+    except:f3=0
+    try:f4=int(hotgarlicwings_entry.get())
+    except:f4=0
+    try:f5=int(fierywings_entry.get())
+    except:f5=0
+    try:f6=int(wingsplatter_entry.get())
+    except:f6=0
+    try:f7=int(tandoorichickenburger_entry.get())
+    except:f7=0
+    try:f8=int(grilledsteakchickenburger_entry.get())
+    except:f8=0
+    try:f9=int(cornmargherita_entry.get())
+    except:f9=0
+    try:f10=int(chickentikka_entry.get())
+    except:f10=0
+    try:f11=int(loadedchicken_entry.get())
+    except:f11=0
+    try:f12=int(caramelcustard_entry.get())
+    except:f12=0
+    try:f13=int(brownieandscoop_entry.get())
+    except:f13=0
+    try:f14=int(honeynoodleandscoop_entry.get())
+    except:f14=0
+
+    try:g1=int(vegmanchurian_entry.get())
+    except:g1=0
+    try:g2=int(vegmanchuriancombo_entry.get())
+    except:g2=0
+    try:g3=int(vegthairice_entry.get())
+    except:g3=0
+    try:g4=int(paneerbuttermasala_entry.get())
+    except:g4=0
+    try:g5=int(paneerbuttermasalacombo_entry.get())
+    except:g5=0
+    try:g6=int(chillichicken_entry.get())
+    except:g6=0
+    try:g7=int(chillichickencombo_entry.get())
+    except:g7=0
+    try:g8=int(keemachicken_entry.get())
+    except:g8=0
+    try:g9=int(chickenmanchurian_entry.get())
+    except:g9=0
+    try:g10=int(chickenmanchuriancombo_entry.get())
+    except:g10=0
+    try:g11=int(chickenbuttermasala_entry.get())
+    except:g11=0
+    try:g12=int(chickenbuttermasalacombo_entry.get())
+    except:g12=0
+    try:g13=int(hotgarlicchicken_entry.get())
+    except:g13=0
+    try:g14=int(hotgarlicchickencombo_entry.get())
+    except:g14=0
+    try:g15=int(steakchickenricebox_entry.get())
+    except:g15=0
+    try:g16=int(grilledfishricebox_entry.get())
+    except:g16=0
+    try:g17=int(chickenstroganoffricebox_entry.get())
+    except:g17=0
+    try:h1=int(classicfries_entry.get())
+    except:h1=0
+    try:h2=int(periperifries_entry.get())
+    except:h2=0
+    try:h3=int(bulletfries_entry.get())
+    except:h3=0
+    try:h4=int(mozarellasticks_entry.get())
+    except:h4=0
+    try:h5=int(chickenpangrilled_entry.get())
+    except:h5=0
+    try:h6=int(grilledsteakchicken_entry.get())
+    except:h6=0
+    try:h7=int(fishfingers_entry.get())
+    except:h7=0
+    try:h8=int(fishandchips_entry.get())
+    except:h8=0
+    try:h9=int(grilledfishlemonbutter_entry.get())
+    except:h9=0
+    try:h10=int(vegcheesechillitoast_entry.get())
+    except:h10=0
+    try:h11=int(chicheesechillitoast_entry.get())
+    except:h11=0
+    try:h12=int(moroccansalad_entry.get())
+    except:h12=0
+    try:h13=int(veggreeksalad_entry.get())
+    except:h13=0
+    try:h14=int(chigreeksalad_entry.get())
+    except:h14=0
+    try:h15=int(vegcaesarsalad_entry.get())
+    except:h15=0
+    try:h16=int(chicaesarsalad_entry.get())
+    except:h16=0
+
+    try:i1=int(vegarabiatta_entry.get())
+    except:i1=0
+    try:i2=int(chiarabiatta_entry.get())
+    except:i2=0
+    try:i3=int(vegalfredo_entry.get())
+    except:i3=0
+    try:i4=int(chialfredo_entry.get())
+    except:i4=0
+    try:i5=int(vegpesto_entry.get())
+    except:i5=0
+    try:i6=int(chipesto_entry.get())
+    except:i6=0
+    try:i7=int(vegmixsauce_entry.get())
+    except:i7=0
+    try:i8=int(chimixsauce_entry.get())
+    except:i8=0
+    try:i9=int(vegbakedalfredo_entry.get())
+    except:i9=0
+    try:i10=int(chibakedalfredo_entry.get())
+    except:i10=0
+    try:i11=int(vegmacandcheese_entry.get())
+    except:i11=0
+    try:i12=int(chimacandcheese_entry.get())
+    except:i12=0
+    try:i13=int(lasagna_entry.get())
+    except:i13=0
+
+    z1=a1*160
+    z2=a2*100
+    z3=a3*170
+    z4=a4*110
+    z5=a5*170
+    z6=a6*110
+    z7=a7*170
+    z8=a8*110
+    z9=a9*170
+    z10=a10*110
+    z11=a11*190
+    z12=a12*120
+
+    z13=b1*150
+    z14=b2*180
+    z15=b3*160
+    z16=b4*190
+    z17=b5*160
+    z18=b6*190
+    z19=b7*150
+    z20=b8*180
+    z21=b9*160
+    z22=b10*190
+    z23=b11*160
+    z24=b12*190
+    z25=b13*200
+    z26=b14*230
+    z27=b15*150
+    z28=b16*180
+    z29=b17*220
+
+    z30=c1*80
+    z31=c2*100
+    z32=c3*80
+    z33=c4*100
+    z34=c5*100
+    z35=c6*120
+    z36=c7*100
+    z37=c8*120
+
+    z38=d1*250
+    z39=d2*220
+    z40=d3*250
+    z41=d4*260
+    z42=d5*250
+    z43=d6*100
+    z44=d7*120
+    z45=d8*150
+    z46=d9*120
+    z47=d10*80
+    z48=d11*50
+    z49=d12*20
+    z50=d13*10
+
+    z51=e1*110
+    z52=e2*120
+    z53=e3*140
+    z54=e4*150
+    z65=e5*180
+    z67=e6*200
+
+    z68=f1*250
+    z69=f2*250
+    z70=f3*250
+    z71=f4*250
+    z72=f5*250
+    z73=f6*460
+    z74=f7*200
+    z75=f8*220
+    z76=f9*300
+    z77=f10*350
+    z78=f11*380
+    z79=f12*130
+    z80=f13*180
+    z81=f14*150
+
+    z82=g1*220
+    z83=g2*250
+    z84=g3*300
+    z85=g4*320
+    z86=g5*280
+    z87=g6*300
+    z88=g7*250
+    z89=g8*280
+    z90=g9*280
+    z91=g10*300
+    z92=g11*380
+    z93=g12*350
+    z94=g13*280
+    z95=g14*300
+    z96=g15*300
+    z97=g16*350
+    z98=g17*280
+
+    z99=h1*100
+    z100=h2*120
+    z101=h3*150
+    z102=h4*220
+    z103=h5*280
+    z104=h6*280
+    z105=h7*280
+    z106=h8*280
+    z107=h9*320
+    z108=h10*150
+    z109=h11*180
+    z110=h12*220
+    z111=h13*150
+    z112=h14*180
+    z113=h15*180
+    z114=h16*220
+
+    z115=i1*230
+    z116=i2*260
+    z117=i3*230
+    z118=i4*260
+    z119=i5*230
+    z120=i6*260
+    z121=i7*240
+    z122=i8*280
+    z123=i9*240
+    z124=i10*280
+    z125=i11*220
+    z126=i12*250
+    z127=i13*290
+
+    bill=z1+z2+z3+z4+z5+z6+z7+z8+z9+z10+z11+z12+z13+z14+z15+z16+z17+z18+z19+z20+z21+z22+z23+z24+z25+z26+z27+z28+z29+z30+z31+z32+z33+z34+z35+z36+z37+z38+z39+z40+z41+z42+z43+z44+z45+z46+z47+z48+z49+z50+z51+z52+z53+z54+z65+z67+z68+z69+z70+z71+z72+z73+z74+z75+z76+z77+z78+z79+z80+z81+z82+z83+z84+z85+z86+z87+z88+z89+z90+z91+z92+z93+z94+z95+z96+z97+z98+z99+z100+z101+z102+z103+z104+z105+z106+z107+z108+z109+z110+z111+z112+z113+z114+z115+z116+z117+z118+z119+z120+z121+z122+z123+z124+z125+z126+z127
+    bill_str=str(bill)
+    total_bill=str(final_bill.set(f'Rs. {bill_str}'))
+
+    order=order_entry.get()
+    table=table_entry.get()
+
+    f=open('Bill.txt','a+')
+    f.write(f'Order no: {order}\n')
+    f.write(f'Table no: {table}\n')
+    f.write(f'Total amt: {bill_str}\n=========================\n')
+
+def resetbutton():
+
+    steam8_entry.delete(0,END)
+    steam5_entry.delete(0, END)
+    bottom8_entry.delete(0, END)
+    bottom5_entry.delete(0, END)
+    honeychilli8_entry.delete(0, END)
+    honeychilli5_entry.delete(0, END)
+    manchurian8_entry.delete(0, END)
+    manchurian5_entry.delete(0, END)
+    sichuan8_entry.delete(0, END)
+    sichuan5_entry.delete(0, END)
+    malai8_entry.delete(0, END)
+    malai5_entry.delete(0, END)
+    vegfriedrice_entry.delete(0, END)
+    chifriedrice_entry.delete(0, END)
+    vegthairice_entry.delete(0, END)
+    chithairice_entry.delete(0, END)
+    vegburntgarlicrice_entry.delete(0, END)
+    chiburntgarlicrice_entry.delete(0, END)
+    veghakkanoodles_entry.delete(0, END)
+    chihakkanoodles_entry.delete(0, END)
+    vegchilligarlicnoodles_entry.delete(0, END)
+    chichilligarlicnoodles_entry.delete(0, END)
+    vegshanghainoodles_entry.delete(0, END)
+    chishanghainoodles_entry.delete(0, END)
+    vegcantonesenoodles_entry.delete(0, END)
+    chicantonesenoodles_entry.delete(0, END)
+    vegthukpa_entry.delete(0, END)
+    chithukpa_entry.delete(0, END)
+    americanchopsuey_entry.delete(0, END)
+    veghotandsour_entry.delete(0, END)
+    chihotandsour_entry.delete(0, END)
+    veglemoncorriander_entry.delete(0, END)
+    chilemoncorriander_entry.delete(0, END)
+    vegsweetcorn_entry.delete(0, END)
+    chisweetcorn_entry.delete(0, END)
+    vegmanchow_entry.delete(0, END)
+    chimanchow_entry.delete(0, END)
+    honeychillichicken_entry.delete(0, END)
+    honeychillipotato_entry.delete(0, END)
+    chickendryfry_entry.delete(0, END)
+    peppergarlicdry_entry.delete(0, END)
+    chillipaneer_entry.delete(0, END)
+    onionrings_entry.delete(0, END)
+    chocolateshake_entry.delete(0, END)
+    oreoshake_entry.delete(0, END)
+    coldcoffee_entry.delete(0, END)
+    limesoda_entry.delete(0, END)
+    hotcoffee_entry.delete(0, END)
+    coke_entry.delete(0, END)
+    waterbottle_entry.delete(0, END)
+    paneervegroll_entry.delete(0, END)
+    doubleeggroll_entry.delete(0, END)
+    chickenroll_entry.delete(0, END)
+    chickeneggroll_entry.delete(0, END)
+    tandoorichickenroll_entry.delete(0, END)
+    chickenspringroll_entry.delete(0, END)
+    drumsofheaven_entry.delete(0, END)
+    bbqwings_entry.delete(0, END)
+    devilswings_entry.delete(0, END)
+    hotgarlicwings_entry.delete(0, END)
+    fierywings_entry.delete(0, END)
+    wingsplatter_entry.delete(0, END)
+    tandoorichickenburger_entry.delete(0, END)
+    grilledsteakchickenburger_entry.delete(0, END)
+    cornmargherita_entry.delete(0, END)
+    chickentikka_entry.delete(0, END)
+    loadedchicken_entry.delete(0, END)
+    caramelcustard_entry.delete(0, END)
+    brownieandscoop_entry.delete(0, END)
+    honeynoodleandscoop_entry.delete(0, END)
+    vegmanchurian_entry.delete(0, END)
+    vegmanchuriancombo_entry.delete(0, END)
+    paneerbuttermasala_entry.delete(0, END)
+    paneerbuttermasalacombo_entry.delete(0, END)
+    chillichicken_entry.delete(0, END)
+    chillichickencombo_entry.delete(0, END)
+    keemachicken_entry.delete(0, END)
+    keemachickencombo_entry.delete(0, END)
+    chickenmanchurian_entry.delete(0, END)
+    chickenmanchuriancombo_entry.delete(0, END)
+    chickenbuttermasala_entry.delete(0, END)
+    chickenbuttermasalacombo_entry.delete(0, END)
+    hotgarlicchicken_entry.delete(0, END)
+    hotgarlicchickencombo_entry.delete(0, END)
+    steakchickenricebox_entry.delete(0, END)
+    grilledfishricebox_entry.delete(0, END)
+    chickenstroganoffricebox_entry.delete(0, END)
+    classicfries_entry.delete(0, END)
+    periperifries_entry.delete(0, END)
+    bulletfries_entry.delete(0, END)
+    mozarellasticks_entry.delete(0, END)
+    chickenpangrilled_entry.delete(0, END)
+    grilledsteakchicken_entry.delete(0, END)
+    fishfingers_entry.delete(0, END)
+    fishandchips_entry.delete(0, END)
+    grilledfishlemonbutter_entry.delete(0, END)
+    vegcheesechillitoast_entry.delete(0, END)
+    chicheesechillitoast_entry.delete(0, END)
+    moroccansalad_entry.delete(0, END)
+    veggreeksalad_entry.delete(0, END)
+    chigreeksalad_entry.delete(0, END)
+    vegcaesarsalad_entry.delete(0, END)
+    chicaesarsalad_entry.delete(0, END)
+    vegarabiatta_entry.delete(0, END)
+    chiarabiatta_entry.delete(0, END)
+    vegalfredo_entry.delete(0, END)
+    chialfredo_entry.delete(0, END)
+    vegpesto_entry.delete(0, END)
+    vegmixsauce_entry.delete(0, END)
+    chimixsauce_entry.delete(0, END)
+    vegbakedalfredo_entry.delete(0, END)
+    chibakedalfredo_entry.delete(0, END)
+    vegmacandcheese_entry.delete(0, END)
+    chimacandcheese_entry.delete(0, END)
+    lasagna_entry.delete(0, END)
+
+root=Tk()
+root.geometry('1400x820')
+root.title('My Belly Story (Bill Generator)')
+root.iconbitmap("C:\\Users\\Yuvraj\\Downloads\\bill.ico")
+root.config(bg='grey')
+
+momo_menu_frame=Frame(root,bg='grey')
+
+momo_cat_label=Label(momo_menu_frame,text='MOMO',font='lucida 10 bold',bg='grey',fg='black')
+momo_cat_label.pack()
+
+steam8=Label(momo_menu_frame,text='Steam(8 pcs)----Rs. 160',font='lucida 10',bg='grey',fg='black')
+steam8.pack()
+steam5=Label(momo_menu_frame,text='Steam(5 pcs)----Rs. 100',font='lucida 10',bg='grey',fg='black')
+steam5.pack()
+bottom8=Label(momo_menu_frame,text='Bottom fried(8 pcs)----Rs. 170',font='lucida 10',bg='grey',fg='black')
+bottom8.pack()
+bottom5=Label(momo_menu_frame,text='Bottom fried(5 pcs)----Rs. 110',font='lucida 10',bg='grey',fg='black')
+bottom5.pack()
+honeychilli8=Label(momo_menu_frame,text='Honey chilli(8 pcs)----Rs. 170',font='lucida 10',bg='grey',fg='black')
+honeychilli8.pack()
+honeychilli5=Label(momo_menu_frame,text='Honey chilli(5 pcs)----Rs. 110',font='lucida 10',bg='grey',fg='black')
+honeychilli5.pack()
+manchurian8=Label(momo_menu_frame,text='Manchurian(8 pcs)----Rs. 170',font='lucida 10',bg='grey',fg='black')
+manchurian8.pack()
+manchurian5=Label(momo_menu_frame,text='Manchurian(5 pcs)----Rs. 110',font='lucida 10',bg='grey',fg='black')
+manchurian5.pack()
+sichuan8=Label(momo_menu_frame,text='Sichuan(8 pcs)----Rs. 170',font='lucida 10',bg='grey',fg='black')
+sichuan8.pack()
+sichuan5=Label(momo_menu_frame,text='Sichuan(5 pcs)----Rs. 110',font='lucida 10',bg='grey',fg='black')
+sichuan5.pack()
+malai8=Label(momo_menu_frame,text='Malail(8 pcs)----Rs. 190',font='lucida 10',bg='grey',fg='black')
+malai8.pack()
+malai5=Label(momo_menu_frame,text='Malai(5 pcs)----Rs. 120',font='lucida 10',bg='grey',fg='black')
+malai5.pack()
+momo_menu_frame.grid(row=0,column=0)
+momo_qty_frame=Frame(root,bg='grey')
+momo_qty_label=Label(momo_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+momo_qty_label.pack()
+steam8_input=StringVar()
+steam8_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=steam8_input)
+steam8_entry.pack(pady=1)
+steam5_input=StringVar()
+steam5_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold ',textvariable=steam5_input)
+steam5_entry.pack(pady=1)
+bottom8_input=StringVar()
+bottom8_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=bottom8_input)
+bottom8_entry.pack(pady=1)
+bottom5_input=StringVar()
+bottom5_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=bottom5_input)
+bottom5_entry.pack(pady=1)
+honeychilli8_input=StringVar()
+honeychilli8_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=honeychilli8_input)
+honeychilli8_entry.pack(pady=1)
+honeychilli5_input=StringVar()
+honeychilli5_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=honeychilli5_input)
+honeychilli5_entry.pack(pady=1)
+manchurian8_input=StringVar()
+manchurian8_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=manchurian8_input)
+manchurian8_entry.pack(pady=1)
+manchurian5_input=StringVar()
+manchurian5_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=manchurian5_input)
+manchurian5_entry.pack(pady=1)
+sichuan8_input=StringVar()
+sichuan8_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=sichuan8_input)
+sichuan8_entry.pack(pady=1)
+sichuan5_input=StringVar()
+sichuan5_entry=Entry(momo_qty_frame,width=4,font='lucida 10 bold',textvariable=sichuan5_input)
+sichuan5_entry.pack(pady=1)
+malai8_input=StringVar()
+malai8_entry=Entry(momo_qty_frame,width=4,font='lucida 10',textvariable=malai8_input)
+malai8_entry.pack(pady=1)
+malai5_input=StringVar()
+malai5_entry=Entry(momo_qty_frame,width=4,font='lucida 10',textvariable=malai5_input)
+malai5_entry.pack(pady=1)
+momo_qty_frame.grid(row=0,column=1)
+
+ricenoodles_menu_frame=Frame(root,bg='grey')
+ricenoodles_cat_label=Label(ricenoodles_menu_frame,text='RICE & NOODLES',font='lucida 10 bold',bg='grey',fg='black')
+ricenoodles_cat_label.pack()
+friedrice_veg=Label(ricenoodles_menu_frame,text='Fried rice(veg)----Rs. 150',font='lucida 10',bg='grey',fg='black')
+friedrice_veg.pack()
+friedrice_chi=Label(ricenoodles_menu_frame,text='Fried rice(chi)----Rs. 180',font='lucida 10',bg='grey',fg='black')
+friedrice_chi.pack()
+thairice_veg=Label(ricenoodles_menu_frame,text='Thai rice(veg)----Rs. 160',font='lucida 10',bg='grey',fg='black')
+thairice_veg.pack()
+thairice_chi=Label(ricenoodles_menu_frame,text='Thai rice(chi)----Rs. 190',font='lucida 10',bg='grey',fg='black')
+thairice_chi.pack()
+burntgarlicrice_veg=Label(ricenoodles_menu_frame,text='Burnt garlic rice(veg)----Rs. 160',font='lucida 10',bg='grey',fg='black')
+burntgarlicrice_veg.pack()
+burntgarlicrice_chi=Label(ricenoodles_menu_frame,text='Burnt garlic rice(chi)----Rs. 190',font='lucida 10',bg='grey',fg='black')
+burntgarlicrice_chi.pack()
+hakkanoodles_veg=Label(ricenoodles_menu_frame,text='Hakka noodles(veg)----Rs. 150',font='lucida 10',bg='grey',fg='black')
+hakkanoodles_veg.pack()
+hakkanoodles_chi=Label(ricenoodles_menu_frame,text='Hakka noodles(chi)----Rs. 180',font='lucida 10',bg='grey',fg='black')
+hakkanoodles_chi.pack()
+chilligarlic_veg=Label(ricenoodles_menu_frame,text='Chilli garlic noodles(veg)----Rs. 160',font='lucida 10',bg='grey',fg='black')
+chilligarlic_veg.pack()
+chilligarlic_chi=Label(ricenoodles_menu_frame,text='Chilli garlic noodles(chi)----Rs. 190',font='lucida 10',bg='grey',fg='black')
+chilligarlic_chi.pack()
+shanghai_veg=Label(ricenoodles_menu_frame,text='Shanghai noodles(veg)----Rs. 160',font='lucida 10',bg='grey',fg='black')
+shanghai_veg.pack()
+shanghai_chi=Label(ricenoodles_menu_frame,text='Shanghai noodles(chi)----Rs. 190',font='lucida 10',bg='grey',fg='black')
+shanghai_chi.pack()
+cantonese_veg=Label(ricenoodles_menu_frame,text='Cantonese noodles(veg)----Rs. 200',font='lucida 10',bg='grey',fg='black')
+cantonese_veg.pack()
+cantonese_chi=Label(ricenoodles_menu_frame,text='Cantonese noodles(chi)----Rs. 230',font='lucida 10',bg='grey',fg='black')
+cantonese_chi.pack()
+thukpa_veg=Label(ricenoodles_menu_frame,text='Thukpa(veg)----Rs. 150',font='lucida 10',bg='grey',fg='black')
+thukpa_veg.pack()
+thukpa_chi=Label(ricenoodles_menu_frame,text='Thukpa(chi)----Rs. 180',font='lucida 10',bg='grey',fg='black')
+thukpa_chi.pack()
+americanchopsuey=Label(ricenoodles_menu_frame,text='American chopsuey----Rs. 220',font='lucida 10',bg='grey',fg='black')
+americanchopsuey.pack()
+ricenoodles_menu_frame.grid(row=1,column=0)
+ricenoodles_qty_frame=Frame(root)
+ricenoodles_qty_label=Label(ricenoodles_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+ricenoodles_qty_label.pack()
+input_vegfriedrice=StringVar()
+vegfriedrice_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegfriedrice)
+vegfriedrice_entry.pack(pady=1)
+input_chifriedrice=StringVar()
+chifriedrice_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chifriedrice)
+chifriedrice_entry.pack(pady=1)
+input_vegthairice=StringVar()
+vegthairice_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegthairice)
+vegthairice_entry.pack(pady=1)
+input_chithairice=StringVar()
+chithairice_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chithairice)
+chithairice_entry.pack(pady=1)
+input_vegburntgarlicrice=StringVar()
+vegburntgarlicrice_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegburntgarlicrice)
+vegburntgarlicrice_entry.pack(pady=1)
+input_chiburntgarlicrice=StringVar()
+chiburntgarlicrice_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chiburntgarlicrice)
+chiburntgarlicrice_entry.pack(pady=1)
+input_veghakkanoodles=StringVar()
+veghakkanoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_veghakkanoodles)
+veghakkanoodles_entry.pack(pady=1)
+input_chihakkanoodles=StringVar()
+chihakkanoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chihakkanoodles)
+chihakkanoodles_entry.pack(pady=1)
+input_vegchilligarlicnoodles=StringVar()
+vegchilligarlicnoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegchilligarlicnoodles)
+vegchilligarlicnoodles_entry.pack(pady=1)
+input_chichilligarlicnoodles=StringVar()
+chichilligarlicnoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chichilligarlicnoodles)
+chichilligarlicnoodles_entry.pack(pady=1)
+input_vegshanghainoodles=StringVar()
+vegshanghainoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegshanghainoodles)
+vegshanghainoodles_entry.pack(pady=1)
+input_chishanghainoodles=StringVar()
+chishanghainoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chishanghainoodles)
+chishanghainoodles_entry.pack(pady=1)
+input_vegcantonesenoodles=StringVar()
+vegcantonesenoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegcantonesenoodles)
+vegcantonesenoodles_entry.pack(pady=1)
+input_chicantonesenoodles=StringVar()
+chicantonesenoodles_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chicantonesenoodles)
+chicantonesenoodles_entry.pack(pady=1)
+input_vegthukpa=StringVar()
+vegthukpa_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegthukpa)
+vegthukpa_entry.pack(pady=1)
+input_chithukpa=StringVar()
+chithukpa_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chithukpa)
+chithukpa_entry.pack(pady=1)
+input_americanchopsuey=StringVar()
+americanchopsuey_entry=Entry(ricenoodles_qty_frame,width=4,font='lucida 10 bold',textvariable=input_americanchopsuey)
+americanchopsuey_entry.pack(pady=1)
+ricenoodles_qty_frame.grid(row=1,column=1)
+
+soup_menu_frame=Frame(root,bg='grey')
+soup_cat_label=Label(soup_menu_frame,text='SOUPS',font='lucida 10 bold',bg='grey',fg='black')
+soup_cat_label.pack()
+veghotandsour_label=Label(soup_menu_frame,text='Hot & sour(veg)----Rs. 80',font='lucida 10',bg='grey',fg='black')
+veghotandsour_label.pack()
+chihotandsour_label=Label(soup_menu_frame,text='Hot & sour(chi)----Rs. 100',font='lucida 10',bg='grey',fg='black')
+chihotandsour_label.pack()
+veglemoncorriander_label=Label(soup_menu_frame,text='Lemon corriander(veg)----Rs. 80',font='lucida 10',bg='grey',fg='black')
+veglemoncorriander_label.pack()
+chilemoncorriander_label=Label(soup_menu_frame,text='Lemon corriander(chi)----Rs. 100',font='lucida 10',bg='grey',fg='black')
+chilemoncorriander_label.pack()
+vegsweetcorn_label=Label(soup_menu_frame,text='Sweet corn(veg)----Rs. 100',font='lucida 10',bg='grey',fg='black')
+vegsweetcorn_label.pack()
+chisweetcorn_label=Label(soup_menu_frame,text='Sweet corn(chi)----Rs. 120',font='lucida 10',bg='grey',fg='black')
+chisweetcorn_label.pack()
+vegmanchow_label=Label(soup_menu_frame,text='Manchow(veg)----Rs. 100',font='lucida 10',bg='grey',fg='black')
+vegmanchow_label.pack()
+chimanchow_label=Label(soup_menu_frame,text='Manchow(chi)----Rs. 120',font='lucida 10',bg='grey',fg='black')
+chimanchow_label.pack()
+soup_menu_frame.grid(row=0,column=2)
+soup_qty_frame=Frame(root,bg='grey')
+soup_qty_label=Label(soup_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+soup_qty_label.pack()
+input_veghotandsour=StringVar()
+veghotandsour_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_veghotandsour)
+veghotandsour_entry.pack(pady=1)
+input_chihotandsour=StringVar()
+chihotandsour_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chihotandsour)
+chihotandsour_entry.pack(pady=1)
+input_veglemoncorriander=StringVar()
+veglemoncorriander_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_veglemoncorriander)
+veglemoncorriander_entry.pack(pady=1)
+input_chilemoncorriander=StringVar()
+chilemoncorriander_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chilemoncorriander)
+chilemoncorriander_entry.pack(pady=1)
+input_vegsweetcorn=StringVar()
+vegsweetcorn_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegsweetcorn)
+vegsweetcorn_entry.pack(pady=1)
+input_chisweetcorn=StringVar()
+chisweetcorn_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chisweetcorn)
+chisweetcorn_entry.pack(pady=1)
+input_vegmanchow=StringVar()
+vegmanchow_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegmanchow)
+vegmanchow_entry.pack(pady=1)
+input_chimanchow=StringVar()
+chimanchow_entry=Entry(soup_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chimanchow)
+chimanchow_entry.pack(pady=1)
+soup_qty_frame.grid(row=0,column=3)
+
+appetizers_menu_frame=Frame(root,bg='grey')
+appetizerz_cat_label=Label(appetizers_menu_frame,text='APPETIZERS / DRINKS',font='lucida 10 bold',bg='grey',fg='black')
+appetizerz_cat_label.pack()
+honeychillichicken=Label(appetizers_menu_frame,text='Honey chiili chicken----Rs. 250',font='lucida 10',bg='grey',fg='black')
+honeychillichicken.pack()
+honeychillipotato=Label(appetizers_menu_frame,text='Honey chiili potato----Rs. 220',font='lucida 10',bg='grey',fg='black')
+honeychillipotato.pack()
+chickendryfry=Label(appetizers_menu_frame,text='Chicken dry fry----Rs. 250',font='lucida 10',bg='grey',fg='black')
+chickendryfry.pack()
+peppergarlicdry=Label(appetizers_menu_frame,text='Pepper garlic dry----Rs. 260',font='lucida 10',bg='grey',fg='black')
+peppergarlicdry.pack()
+chillipaneer=Label(appetizers_menu_frame,text='Chilli paneer----Rs. 250',font='lucida 10',bg='grey',fg='black')
+chillipaneer.pack()
+onionrings=Label(appetizers_menu_frame,text='Onion rings----Rs. 100',font='lucida 10',bg='grey',fg='black')
+onionrings.pack()
+chocolateshake=Label(appetizers_menu_frame,text='Chocolate shake----Rs.120',font='lucida 10',bg='grey',fg='black')
+chocolateshake.pack()
+oreoshake=Label(appetizers_menu_frame,text='Oreo shake----Rs.150',font='lucida 10',bg='grey',fg='black')
+oreoshake.pack()
+coldcoffee=Label(appetizers_menu_frame,text='Cold coffee----Rs.120',font='lucida 10',bg='grey',fg='black')
+coldcoffee.pack()
+limesoda=Label(appetizers_menu_frame,text='Lime soda----Rs.80',font='lucida 10',bg='grey',fg='black')
+limesoda.pack()
+hotcoffee=Label(appetizers_menu_frame,text='Hot coffee----Rs.50',font='lucida 10',bg='grey',fg='black')
+hotcoffee.pack()
+coke=Label(appetizers_menu_frame,text='Coke----Rs.20',font='lucida 10',bg='grey',fg='black')
+coke.pack()
+waterbottle=Label(appetizers_menu_frame,text='Water bottle----Rs.10',font='lucida 10',bg='grey',fg='black')
+waterbottle.pack()
+appetizers_menu_frame.grid(row=1,column=2)
+appetizers_qty_frame=Frame(root,bg='grey')
+appetizers_cat_label=Label(appetizers_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+appetizers_cat_label.pack()
+input_honeychillichicken=StringVar()
+honeychillichicken_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_honeychillichicken)
+honeychillichicken_entry.pack(pady=1)
+input_honeychillipotato=StringVar()
+honeychillipotato_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_honeychillipotato)
+honeychillipotato_entry.pack(pady=1)
+input_chickendryfry=StringVar()
+chickendryfry_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickendryfry)
+chickendryfry_entry.pack(pady=1)
+input_pepprgarlicdry=StringVar()
+peppergarlicdry_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_pepprgarlicdry)
+peppergarlicdry_entry.pack(pady=1)
+input_chillipaneer=StringVar()
+chillipaneer_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chillipaneer)
+chillipaneer_entry.pack(pady=1)
+input_onionrings=StringVar()
+onionrings_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_onionrings)
+onionrings_entry.pack(pady=1)
+input_chocolateshake=StringVar()
+chocolateshake_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chocolateshake)
+chocolateshake_entry.pack(pady=1)
+input_oreoshake=StringVar()
+oreoshake_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_oreoshake)
+oreoshake_entry.pack(pady=1)
+input_coldcoffee=StringVar()
+coldcoffee_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_coldcoffee)
+coldcoffee_entry.pack(pady=1)
+input_limesoda=StringVar()
+limesoda_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_limesoda)
+limesoda_entry.pack(pady=1)
+input_hotcoffee=StringVar()
+hotcoffee_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_hotcoffee)
+hotcoffee_entry.pack(pady=1)
+input_coke=StringVar()
+coke_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_coke)
+coke_entry.pack(pady=1)
+input_waterbottle=StringVar()
+waterbottle_entry=Entry(appetizers_qty_frame,width=4,font='lucida 10 bold',textvariable=input_waterbottle)
+waterbottle_entry.pack(pady=1)
+appetizers_qty_frame.grid(row=1,column=3)
+
+roll_menu_frame=Frame(root,bg='grey')
+roll_cat_label=Label(roll_menu_frame,text='ROLLS',font='lucida 10 bold',bg='grey',fg='black')
+roll_cat_label.pack()
+paneervegroll=Label(roll_menu_frame,text='Paneer veg roll----Rs. 110',font='lucida 10',bg='grey',fg='black')
+paneervegroll.pack()
+doubleeggroll=Label(roll_menu_frame,text='Double egg roll----Rs. 120',font='lucida 10',bg='grey',fg='black')
+doubleeggroll.pack()
+chickenroll=Label(roll_menu_frame,text='Chicken roll----Rs. 140',font='lucida 10',bg='grey',fg='black')
+chickenroll.pack()
+chickeneggroll=Label(roll_menu_frame,text='Chicken egg roll----Rs. 150',font='lucida 10',bg='grey',fg='black')
+chickeneggroll.pack()
+tandoorichickenroll=Label(roll_menu_frame,text='Tandoori chicken roll----Rs. 180',font='lucida 10',bg='grey',fg='black')
+tandoorichickenroll.pack()
+chickenspringroll=Label(roll_menu_frame,text='Chicken spring roll----Rs. 200',font='lucida 10',bg='grey',fg='black')
+chickenspringroll.pack()
+roll_menu_frame.grid(row=0,column=4)
+roll_qty_frame=Frame(root,bg='grey')
+roll_qty_label=Label(roll_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+roll_qty_label.pack()
+input_paneervegroll=StringVar()
+paneervegroll_entry=Entry(roll_qty_frame,width=4,font='lucida 10 bold',textvariable=input_paneervegroll)
+paneervegroll_entry.pack(pady=1)
+input_doubleeggroll=StringVar()
+doubleeggroll_entry=Entry(roll_qty_frame,width=4,font='lucida 10 bold',textvariable=input_doubleeggroll)
+doubleeggroll_entry.pack(pady=1)
+input_chickenroll=StringVar()
+chickenroll_entry=Entry(roll_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenroll)
+chickenroll_entry.pack(pady=1)
+input_chickeneggroll=StringVar()
+chickeneggroll_entry=Entry(roll_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickeneggroll)
+chickeneggroll_entry.pack(pady=1)
+input_tandoorichickenroll=StringVar()
+tandoorichickenroll_entry=Entry(roll_qty_frame,width=4,font='lucida 10 bold',textvariable=input_tandoorichickenroll)
+tandoorichickenroll_entry.pack(pady=1)
+input_chickenspringroll=StringVar()
+chickenspringroll_entry=Entry(roll_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenspringroll)
+chickenspringroll_entry.pack(pady=1)
+roll_qty_frame.grid(row=0,column=5)
+
+wings_burgers_pizza_desserts_frame=Frame(root,bg='grey')
+winngs_burgers_pizza_label=Label(wings_burgers_pizza_desserts_frame,text='WINGS / BURGERS / PIZZA / DESSERTS',font='lucida 10 bold',bg='grey',fg='black')
+winngs_burgers_pizza_label.pack()
+drumsofheaven=Label(wings_burgers_pizza_desserts_frame,text='Drums of heaven----Rs. 250',font='lucida 10',bg='grey',fg='black')
+drumsofheaven.pack()
+bbqwings=Label(wings_burgers_pizza_desserts_frame,text='BBQ wings----Rs. 250',font='lucida 10',bg='grey',fg='black')
+bbqwings.pack()
+devilswings=Label(wings_burgers_pizza_desserts_frame,text='Devils wings----Rs. 250',font='lucida 10',bg='grey',fg='black')
+devilswings.pack()
+hotgarlicwings=Label(wings_burgers_pizza_desserts_frame,text='Hot garlic wings----Rs. 250',font='lucida 10',bg='grey',fg='black')
+hotgarlicwings.pack()
+fierywings=Label(wings_burgers_pizza_desserts_frame,text='Fiery wings----Rs. 250',font='lucida 10',bg='grey',fg='black')
+fierywings.pack()
+wingsplatter=Label(wings_burgers_pizza_desserts_frame,text='Wings platter(12pcs)----Rs. 460',font='lucida 10',bg='grey',fg='black')
+wingsplatter.pack()
+tandoorichickenburger=Label(wings_burgers_pizza_desserts_frame,text='Tandoori burger----Rs.200',font='lucida 10',bg='grey',fg='black')
+tandoorichickenburger.pack()
+grilledsteakchickenburger=Label(wings_burgers_pizza_desserts_frame,text='Grilled steak burger----Rs.220',font='lucida 10',bg='grey',fg='black')
+grilledsteakchickenburger.pack()
+cornmargheritapizza=Label(wings_burgers_pizza_desserts_frame,text='Corn margherita pizza----Rs.300',font='lucida 10',bg='grey',fg='black')
+cornmargheritapizza.pack()
+chickentikkapizza=Label(wings_burgers_pizza_desserts_frame,text='Chicken tikka pizza----Rs.350',font='lucida 10',bg='grey',fg='black')
+chickentikkapizza.pack()
+loadedchickenpizza=Label(wings_burgers_pizza_desserts_frame,text='Loaded chicken pizza----Rs.380',font='lucida 10',bg='grey',fg='black')
+loadedchickenpizza.pack()
+caramelcustard=Label(wings_burgers_pizza_desserts_frame,text='Caramel custard----Rs.130',font='lucida 10',bg='grey',fg='black')
+caramelcustard.pack()
+brownieandscoop=Label(wings_burgers_pizza_desserts_frame,text='Brownie & scoop----Rs.180',font='lucida 10',bg='grey',fg='black')
+brownieandscoop.pack()
+honeynoodlesandscoop=Label(wings_burgers_pizza_desserts_frame,text='Honey noodle & scoop----Rs.150',font='lucida 10',bg='grey',fg='black')
+honeynoodlesandscoop.pack()
+wings_burgers_pizza_desserts_frame.grid(row=1,column=4)
+wings_burgers_pizza_desserts_qty_frame=Frame(root,bg='grey')
+wings_burgers_pizza_desserts_qty_label=Label(wings_burgers_pizza_desserts_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+wings_burgers_pizza_desserts_qty_label.pack()
+input_drumsofheaven=StringVar()
+drumsofheaven_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_drumsofheaven)
+drumsofheaven_entry.pack(pady=1)
+input_bbqwings=StringVar()
+bbqwings_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_bbqwings)
+bbqwings_entry.pack(pady=1)
+input_devilswings=StringVar()
+devilswings_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_devilswings)
+devilswings_entry.pack(pady=1)
+input_hotgarlicwings=StringVar()
+hotgarlicwings_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_hotgarlicwings)
+hotgarlicwings_entry.pack(pady=1)
+input_fierywings=StringVar()
+fierywings_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_fierywings)
+fierywings_entry.pack(pady=1)
+input_wingsplatter=StringVar()
+wingsplatter_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_wingsplatter)
+wingsplatter_entry.pack(pady=1)
+input_tandoorichickenburger=StringVar()
+tandoorichickenburger_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_tandoorichickenburger)
+tandoorichickenburger_entry.pack(pady=1)
+input_grilledsteakchickenburger=StringVar()
+grilledsteakchickenburger_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_grilledsteakchickenburger)
+grilledsteakchickenburger_entry.pack(pady=1)
+input_cornmarherita=StringVar()
+cornmargherita_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_cornmarherita)
+cornmargherita_entry.pack(pady=1)
+input_chickentikka=StringVar()
+chickentikka_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickentikka)
+chickentikka_entry.pack(pady=1)
+input_loadedchicken=StringVar()
+loadedchicken_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_loadedchicken)
+loadedchicken_entry.pack(pady=1)
+input_caramelcustard=StringVar()
+caramelcustard_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_caramelcustard)
+caramelcustard_entry.pack(pady=1)
+input_brownieandscoop=StringVar()
+brownieandscoop_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_brownieandscoop)
+brownieandscoop_entry.pack(pady=1)
+input_honeynoodleandscoop=StringVar()
+honeynoodleandscoop_entry=Entry(wings_burgers_pizza_desserts_qty_frame,width=4,font='lucida 10 bold',textvariable=input_honeynoodleandscoop)
+honeynoodleandscoop_entry.pack(pady=1)
+wings_burgers_pizza_desserts_qty_frame.grid(row=1,column=5)
+
+maincourse_combos_ricemeals_frame=Frame(root,bg='grey')
+maincourse_combos_ricemeals_frame_cat_label=Label(maincourse_combos_ricemeals_frame,text='MAINCOURSE / COMBOS / MEALBOX',font='lucida 10 bold',bg='grey',fg='black')
+maincourse_combos_ricemeals_frame_cat_label.pack()
+vegmanchurian=Label(maincourse_combos_ricemeals_frame,text='Veg manchurian----Rs. 220',font='lucida 10',bg='grey',fg='black')
+vegmanchurian.pack()
+vegmanchurianwithvegfriedrice=Label(maincourse_combos_ricemeals_frame,text='Veg manchurian & Veg fried rice(Combo)----Rs. 250',font='lucida 10 ',bg='grey',fg='black')
+vegmanchurianwithvegfriedrice.pack()
+paneerbuttermasala=Label(maincourse_combos_ricemeals_frame,text='Paneer butter masala----Rs. 300',font='lucida 10',bg='grey',fg='black')
+paneerbuttermasala.pack()
+paneerbuttermasalawithjeerarice=Label(maincourse_combos_ricemeals_frame,text='Paneer butter masala & Jeera rice(Combo)----Rs. 320',font='lucida 10',bg='grey',fg='black')
+paneerbuttermasalawithjeerarice.pack()
+chillichicken=Label(maincourse_combos_ricemeals_frame,text='Chilly chicken----Rs. 280',font='lucida 10',bg='grey',fg='black')
+chillichicken.pack()
+chiilychickenwithvegfriedrice=Label(maincourse_combos_ricemeals_frame,text='Chilly chicken & Veg fried rice(Combo)----Rs. 300',font='lucida 10',bg='grey',fg='black')
+chiilychickenwithvegfriedrice.pack()
+keemachicken=Label(maincourse_combos_ricemeals_frame,text='Keema chicken----Rs. 250',font='lucida 10 ',bg='grey',fg='black')
+keemachicken.pack()
+keemachickenwithjeerarice=Label(maincourse_combos_ricemeals_frame,text='Keema chicken & Jeera rice(Combo)----Rs. 280',font='lucida 10',bg='grey',fg='black')
+keemachickenwithjeerarice.pack()
+chickenmanchurian=Label(maincourse_combos_ricemeals_frame,text='Chicken manchurian----Rs. 280',font='lucida 10 ',bg='grey',fg='black')
+chickenmanchurian.pack()
+chickenmanchurianwithvegfriedrice=Label(maincourse_combos_ricemeals_frame,text='Chicken manchurian & Veg fried rice(Combo)----Rs. 300',font='lucida 10',bg='grey',fg='black')
+chickenmanchurianwithvegfriedrice.pack()
+chickenbuttermasala=Label(maincourse_combos_ricemeals_frame,text='Chicken butter masala----Rs. 380',font='lucida 10',bg='grey',fg='black')
+chickenbuttermasala.pack()
+chickenbuttermasalawithjeerarice=Label(maincourse_combos_ricemeals_frame,text='Chicken butter masala & Jeera rice(Combo)----Rs. 350',font='lucida 10 ',bg='grey',fg='black')
+chickenbuttermasalawithjeerarice.pack()
+hotgarlicchicken=Label(maincourse_combos_ricemeals_frame,text='Hot garlic chicken----Rs. 280',font='lucida 10 ',bg='grey',fg='black')
+hotgarlicchicken.pack()
+hotgarlicchickenwithvegfriedrice=Label(maincourse_combos_ricemeals_frame,text='Hot garlic chicken & Veg fried rice(Combo)----Rs. 300',font='lucida 10 ',bg='grey',fg='black')
+hotgarlicchickenwithvegfriedrice.pack()
+steakchickenricebox=Label(maincourse_combos_ricemeals_frame,text='Steak chicken rice box----Rs. 300',font='lucida 10 ',bg='grey',fg='black')
+steakchickenricebox.pack()
+grilledfishricebox=Label(maincourse_combos_ricemeals_frame,text='Grilled fish rice box----Rs. 350',font='lucida 10 ',bg='grey',fg='black')
+grilledfishricebox.pack()
+chickenstroganoffricebox=Label(maincourse_combos_ricemeals_frame,text='Chicken stroganoff rice box----Rs. 280',font='lucida 10 ',bg='grey',fg='black')
+chickenstroganoffricebox.pack()
+maincourse_combos_ricemeals_frame.grid(row=0,column=6)
+maincourse_combos_ricemeals_qty_frame=Frame(root,bg='grey')
+maincourse_combos_ricemeals_qty_label=Label(maincourse_combos_ricemeals_qty_frame,text='Qty',font='luicda 10 bold',bg='grey',fg='black')
+maincourse_combos_ricemeals_qty_label.pack()
+input_vegmanchurian=StringVar()
+vegmanchurian_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegmanchurian)
+vegmanchurian_entry.pack(pady=1)
+input_vegmanchuriancombo=StringVar()
+vegmanchuriancombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegmanchuriancombo)
+vegmanchuriancombo_entry.pack(pady=1)
+input_paneerbuttermasala=StringVar()
+paneerbuttermasala_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_paneerbuttermasala)
+paneerbuttermasala_entry.pack(pady=1)
+input_paneerbuttermasalacombo=StringVar()
+paneerbuttermasalacombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_paneerbuttermasalacombo)
+paneerbuttermasalacombo_entry.pack(pady=1)
+input_chillichicken=StringVar()
+chillichicken_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chillichicken)
+chillichicken_entry.pack(pady=1)
+input_chillichickencombo=StringVar()
+chillichickencombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chillichickencombo)
+chillichickencombo_entry.pack(pady=1)
+input_keemachicken=StringVar()
+keemachicken_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_keemachicken)
+keemachicken_entry.pack(pady=1)
+input_keemachickencombo=StringVar()
+keemachickencombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_keemachickencombo)
+keemachickencombo_entry.pack(pady=1)
+input_chickenmanchurian=StringVar()
+chickenmanchurian_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenmanchurian)
+chickenmanchurian_entry.pack(pady=1)
+input_chickenmanchuriancombo=StringVar()
+chickenmanchuriancombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenmanchuriancombo)
+chickenmanchuriancombo_entry.pack(pady=1)
+input_chickenbuttermasala=StringVar()
+chickenbuttermasala_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenbuttermasala)
+chickenbuttermasala_entry.pack(pady=1)
+input_chickenbuttermasalacombo=StringVar()
+chickenbuttermasalacombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenbuttermasalacombo)
+chickenbuttermasalacombo_entry.pack(pady=1)
+input_hotgarlicchicken=StringVar()
+hotgarlicchicken_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_hotgarlicchicken)
+hotgarlicchicken_entry.pack(pady=1)
+input_hotgarlicchickencombo=StringVar()
+hotgarlicchickencombo_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_hotgarlicchickencombo)
+hotgarlicchickencombo_entry.pack(pady=1)
+input_steakchickenricebox=StringVar()
+steakchickenricebox_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_steakchickenricebox)
+steakchickenricebox_entry.pack(pady=1)
+input_grilledfishricebox=StringVar()
+grilledfishricebox_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_grilledfishricebox)
+grilledfishricebox_entry.pack(pady=1)
+input_chickenstroganoffricebox=StringVar()
+chickenstroganoffricebox_entry=Entry(maincourse_combos_ricemeals_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenstroganoffricebox)
+chickenstroganoffricebox_entry.pack(pady=1)
+maincourse_combos_ricemeals_qty_frame.grid(row=0,column=7)
+
+bites_salads_frame=Frame(root,bg='grey')
+bites_salads_cat_label=Label(bites_salads_frame,text='BITES / SALADS',font='lucida 10 bold',bg='grey',fg='black')
+bites_salads_cat_label.pack()
+classicfries=Label(bites_salads_frame,text='Classic fries----Rs. 100',font='lucida 10',bg='grey',fg='black')
+classicfries.pack()
+periperifries=Label(bites_salads_frame,text='Per peri fries----Rs. 120',font='lucida 10',bg='grey',fg='black')
+periperifries.pack()
+bulletfries=Label(bites_salads_frame,text='Bullet fries----Rs. 150',font='lucida 10',bg='grey',fg='black')
+bulletfries.pack()
+mozarellasticks=Label(bites_salads_frame,text='Mozarella sticks----Rs. 220',font='lucida 10',bg='grey',fg='black')
+mozarellasticks.pack()
+chickennuggets=Label(bites_salads_frame,text='Chicken nuggets----Rs. 250',font='lucida 10',bg='grey',fg='black')
+chickenpangrilled=Label(bites_salads_frame,text='Chicken pan grilled----Rs. 280',font='lucida 10',bg='grey',fg='black')
+chickenpangrilled.pack()
+grilledsteakchicken=Label(bites_salads_frame,text='Grilled steak chicken----Rs. 280',font='lucida 10',bg='grey',fg='black')
+grilledsteakchicken.pack()
+fishfingers=Label(bites_salads_frame,text='Fish fingers----Rs. 280',font='lucida 10',bg='grey',fg='black')
+fishfingers.pack()
+fishandchips=Label(bites_salads_frame,text='Fish & chips----Rs. 280',font='lucida 10',bg='grey',fg='black')
+fishandchips.pack()
+grilledfishlemonbutter=Label(bites_salads_frame,text='Grilled fish lemon butter----Rs. 320',font='lucida 10',bg='grey',fg='black')
+grilledfishlemonbutter.pack()
+vegcheesechillitoast=Label(bites_salads_frame,text='Cheese chilli toast(veg)----Rs. 150',font='lucida 10',bg='grey',fg='black')
+vegcheesechillitoast.pack()
+chicheesechillitoast=Label(bites_salads_frame,text='Cheese chilli toast(chi)----Rs. 180',font='lucida 10',bg='grey',fg='black')
+chicheesechillitoast.pack()
+moroccansalad=Label(bites_salads_frame,text='Moroccan salad----Rs. 220',font='lucida 10',bg='grey',fg='black')
+moroccansalad.pack()
+veggreeksalad=Label(bites_salads_frame,text='Greek salad(veg)----Rs. 150',font='lucida 10',bg='grey',fg='black')
+veggreeksalad.pack()
+chigreeksalad=Label(bites_salads_frame,text='Greek salad(chi)----Rs. 180',font='lucida 10',bg='grey',fg='black')
+chigreeksalad.pack()
+vegcaesarsalad=Label(bites_salads_frame,text='Caesar salad(veg)----Rs. 180',font='lucida 10',bg='grey',fg='black')
+vegcaesarsalad.pack()
+chicaesarsalad=Label(bites_salads_frame,text='Caesar salad(chi)----Rs. 220',font='lucida 10',bg='grey',fg='black')
+chicaesarsalad.pack()
+bites_salads_frame.grid(row=1,column=6)
+bites_salads_qty_frame=Frame(root,bg='grey')
+bites_salads_qty_label=Label(bites_salads_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+bites_salads_qty_label.pack()
+input_classicfries=StringVar()
+classicfries_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_classicfries)
+classicfries_entry.pack(pady=1)
+input_periperifries=StringVar()
+periperifries_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_periperifries)
+periperifries_entry.pack(pady=1)
+input_bulletfries=StringVar()
+bulletfries_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_bulletfries)
+bulletfries_entry.pack(pady=1)
+input_mozarellasticks=StringVar()
+mozarellasticks_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_mozarellasticks)
+mozarellasticks_entry.pack(pady=1)
+input_chickenpangrilled=StringVar()
+chickenpangrilled_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chickenpangrilled)
+chickenpangrilled_entry.pack(pady=1)
+input_grilledsteakchicken=StringVar()
+grilledsteakchicken_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_grilledsteakchicken)
+grilledsteakchicken_entry.pack(pady=1)
+input_fishfingers=StringVar()
+fishfingers_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_fishfingers)
+fishfingers_entry.pack(pady=1)
+input_fishandchips=StringVar()
+fishandchips_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_fishandchips)
+fishandchips_entry.pack(pady=1)
+input_grilledfishlemonbutter=StringVar()
+grilledfishlemonbutter_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_grilledfishlemonbutter)
+grilledfishlemonbutter_entry.pack(pady=1)
+input_vegcheesechillitoast=StringVar()
+vegcheesechillitoast_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegcheesechillitoast)
+vegcheesechillitoast_entry.pack(pady=1)
+input_chicheesechillitoast=StringVar()
+chicheesechillitoast_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chicheesechillitoast)
+chicheesechillitoast_entry.pack(pady=1)
+input_moroccansalad=StringVar()
+moroccansalad_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_moroccansalad)
+moroccansalad_entry.pack(pady=1)
+input_veggreeksalad=StringVar()
+veggreeksalad_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_veggreeksalad)
+veggreeksalad_entry.pack(pady=1)
+input_chigreeksalad=StringVar()
+chigreeksalad_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_classicfries)
+chigreeksalad_entry.pack(pady=1)
+input_vegceasarsalad=StringVar()
+vegcaesarsalad_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegceasarsalad)
+vegcaesarsalad_entry.pack(pady=1)
+input_chicaesarsalad=StringVar()
+chicaesarsalad_entry=Entry(bites_salads_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chicaesarsalad)
+chicaesarsalad_entry.pack(pady=1)
+bites_salads_qty_frame.grid(row=1,column=7)
+
+pasta_drinks_frame=Frame(root,bg='grey')
+pasta_drinks_cat_label=Label(pasta_drinks_frame,text='PASTA',font='lucida 10 bold',bg='grey',fg='black')
+pasta_drinks_cat_label.pack()
+vegarabiatta=Label(pasta_drinks_frame,text='Arabiatta pasta(veg)----Rs.230',font='lucida 10',bg='grey',fg='black')
+vegarabiatta.pack()
+chiarabiatta=Label(pasta_drinks_frame,text='Arabiatta pasta(chi)----Rs.260',font='lucida 10',bg='grey',fg='black')
+chiarabiatta.pack()
+vegalfredo=Label(pasta_drinks_frame,text='Alfredo pasta(veg)----Rs.230',font='lucida 10',bg='grey',fg='black')
+vegalfredo.pack()
+chialfredo=Label(pasta_drinks_frame,text='Alfredo pasta(chi)----Rs.260',font='lucida 10',bg='grey',fg='black')
+chialfredo.pack()
+vegpesto=Label(pasta_drinks_frame,text='Pesto pasta(veg)----Rs.230',font='lucida 10',bg='grey',fg='black')
+vegpesto.pack()
+chipesto=Label(pasta_drinks_frame,text='Pesto pasta(chi)----Rs.260',font='lucida 10',bg='grey',fg='black')
+chipesto.pack()
+vegmixsauce=Label(pasta_drinks_frame,text='Mix sauce pasta(veg)----Rs.240',font='lucida 10',bg='grey',fg='black')
+vegmixsauce.pack()
+chimixsauce=Label(pasta_drinks_frame,text='Mix sauce pasta(chi)----Rs.280',font='lucida 10',bg='grey',fg='black')
+chimixsauce.pack()
+vegbakedalfredo=Label(pasta_drinks_frame,text='Baked alfredo pasta(veg)----Rs.240',font='lucida 10',bg='grey',fg='black')
+vegbakedalfredo.pack()
+chibakedalfredo=Label(pasta_drinks_frame,text='Baked alfredo pasta(chi)----Rs.280',font='lucida 10',bg='grey',fg='black')
+chibakedalfredo.pack()
+vegmacandcheese=Label(pasta_drinks_frame,text='Mac & cheese pasta(veg)----Rs.220',font='lucida 10',bg='grey',fg='black')
+vegmacandcheese.pack()
+chimacandcheese=Label(pasta_drinks_frame,text='Mac & cheese pasta(chi)----Rs.250',font='lucida 10',bg='grey',fg='black')
+chimacandcheese.pack()
+lasagna=Label(pasta_drinks_frame,text='Lasagna----Rs.290',font='lucida 10',bg='grey',fg='black')
+lasagna.pack()
+pasta_drinks_frame.grid(row=0,column=8)
+
+pasta_qty_frame=Frame(root,bg='grey')
+pasta_qty_label=Label(pasta_qty_frame,text='Qty',font='lucida 10 bold',bg='grey',fg='black')
+pasta_qty_label.pack()
+input_vegarabiatta=StringVar()
+vegarabiatta_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegarabiatta)
+vegarabiatta_entry.pack(pady=1)
+input_chiarabiatta=StringVar()
+chiarabiatta_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chiarabiatta)
+chiarabiatta_entry.pack(pady=1)
+input_vegalfredo=StringVar()
+vegalfredo_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegalfredo)
+vegalfredo_entry.pack(pady=1)
+input_chialfredo=StringVar()
+chialfredo_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chialfredo)
+chialfredo_entry.pack(pady=1)
+input_vegpesto=StringVar()
+vegpesto_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegpesto)
+vegpesto_entry.pack(pady=1)
+input_chipesto=StringVar()
+chipesto_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chipesto)
+chipesto_entry.pack(pady=1)
+input_vegmixsauce=StringVar()
+vegmixsauce_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegmixsauce)
+vegmixsauce_entry.pack(pady=1)
+input_chimixsauce=StringVar()
+chimixsauce_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chimixsauce)
+chimixsauce_entry.pack(pady=1)
+input_vegbakedalfredo=StringVar()
+vegbakedalfredo_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegbakedalfredo)
+vegbakedalfredo_entry.pack(pady=1)
+input_chibakedalfredo=StringVar()
+chibakedalfredo_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chibakedalfredo)
+chibakedalfredo_entry.pack(pady=1)
+input_vegmacandcheese=StringVar()
+vegmacandcheese_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_vegmacandcheese)
+vegmacandcheese_entry.pack(pady=1)
+input_chimacandcheese=StringVar()
+chimacandcheese_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_chimacandcheese)
+chimacandcheese_entry.pack(pady=1)
+input_lasagna=StringVar()
+lasagna_entry=Entry(pasta_qty_frame,width=4,font='lucida 10 bold',textvariable=input_lasagna)
+lasagna_entry.pack(pady=1)
+pasta_qty_frame.grid(row=0,column=9)
+
+totalbill_frame=Frame(root,bg='grey')
+
+order_label=Label(totalbill_frame,text='Order No.',font='luicda 14 bold',bg='grey',fg='black')
+order_label.pack(pady=4)
+
+input_order=StringVar()
+order_entry=Entry(totalbill_frame,font='lucida 12 bold',bg='white',fg='black',relief=SUNKEN,borderwidth=3,width=5,textvariable=input_order)
+order_entry.pack(pady=7)
+
+table_label=Label(totalbill_frame,text='Table no.',font='luicda 14 bold',bg='grey',fg='black')
+table_label.pack(pady=4)
+
+input_table=StringVar()
+table_entry=Entry(totalbill_frame,font='lucida 12 bold',bg='white',fg='black',relief=SUNKEN,borderwidth=3,width=5,textvariable=input_table)
+table_entry.pack(pady=7)
+
+totalbill_label=Label(totalbill_frame,text='Total Amt.',font='lucida 18 bold',bg='grey',fg='black')
+totalbill_label.pack(pady=4)
+
+final_bill=StringVar()
+totalbill_entry=Entry(totalbill_frame,font='lucida 15 bold',bg='white',fg='black',relief=SUNKEN,borderwidth=3,textvariable=final_bill)
+totalbill_entry.pack(padx=100,pady=7)
+
+total_button=Button(totalbill_frame,text='Total',font='lucida 13 bold',bg='orange',command=totalbutton)
+total_button.pack(pady=5)
+
+reset_button=Button(totalbill_frame,text='Reset',font='lucida 11 bold',bg='orange',command=resetbutton)
+reset_button.pack(pady=5)
+totalbill_frame.grid(row=1,column=8)
+
+root.mainloop()
+
